@@ -19,6 +19,7 @@ class MyApp extends StatelessWidget {
   }
 }
 
+//Membuat landing saat masuk aplikasi
 class Landing extends StatefulWidget {
   const Landing({Key? key, required this.title}) : super(key: key);
   final String title;
@@ -66,7 +67,7 @@ class _LandingState extends State<Landing> {
   }
 }
 
-
+//Membuat halaman login aplikasi
 class Login extends StatefulWidget {
 
   @override
